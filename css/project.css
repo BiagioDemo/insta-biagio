@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #1a1a1a;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid #acacac;
+  height: 80px;
+}
+
+.navContainer {
+  width: 935px;
+  /* background-color: #1a1a1a; */
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.projectSummary {
+  margin-left: 20px;
+}
+
+.labelAndDesc {
+  /* display: flex; */
+  /* background-color: orange; */
+  /* display: inline-flex; */
+  display: inline-block;
+  /* margin-left: 20px; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.label {
+  /* width: 98.4px; */
+  /* display: inline-flex; */
+  /* height: 10px; */
+  display: block;
+  font-family: Gotham;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.1px;
+  color: #acacac;
+  text-transform: uppercase;
+  /* background-color: lightblue; */
+}
+
+.desc {
+  /* width: 400px; */
+  display: block;
+  height: 12px;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  /* background-color: black; */
+}
+
+.sociallinks {
+  text-align: right;
+  flex-grow: 1;
+  flex-wrap: wrap-reverse;
+  margin-right: 20px;
+}
+
+.sociallinks span{
+  background-color: red;
+}
+
+img.btnClose{
+  padding-left: 32px;
+}
+
+/* MAIN SECTION */
+.main {
+  padding-top: 90px;
+  width: 935px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 935px) {
+
+  .navContainer {
+    width: 100%;
+  }
+
+  img.btnClose{
+    padding-left: 10px;
+  }
+
+  .main {
+    /* width: 728px; */
+    width: 96%;
+  }
+
+  .main img {
+    /* width: 728px; */
+    width: 100%;
+    /* display: none; */
+  }
+
+}
+
+@media only screen and (max-width: 728px) {
+
+  .main {
+
+    /* width: 300px; */
+  }
+
+  .main img {
+    /* width: 300px; */
+    /* display: none; */
+  }
+
+  img.btnPrev, img.btnNext{
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 620px) {
+
+  .main {
+    padding-top: 100px;
+
+  }
+
+  header {
+    height: 100px;
+  }
+
+  .navContainer {
+    /* height: 206px; */
+
+  }
+
+  .labelAndDesc {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: orange; */
+    /* display: inline-flex; */
+    /* display: block; */
+    /* margin-bottom: 30px; */
+    /* top: 40px; */
+  }
+
+  img.btnClose{
+    width: 42px;
+    height:42px;
+  }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
+
+
+}
+
+@media only screen and (min-resolution: 150dpi) {
+    /* CSS for high resolution screens */
+  /* .logo{
+  background-image: url("../img/spaceship@2x.png");
+  } */
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+
+}

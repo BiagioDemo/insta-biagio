@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>fa-solid:heart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Overlay_Stats_02" transform="translate(-65.000000, -40.000000)">
+            <g id="Group" transform="translate(65.000000, 35.000000)">
+                <g id="fa-solid:heart" transform="translate(0.000000, 4.000000)">
+                    <g id="Icon" transform="translate(0.000000, 1.000000)" fill="#FFFFFF">
+                        <path d="M15.7943182,1.60689655 C13.9261364,-0.00344827586 11.1477273,0.286206897 9.43295455,2.07586207 L8.76136364,2.77586207 L8.08977273,2.07586207 C6.37840909,0.286206897 3.59659091,-0.00344827586 1.72840909,1.60689655 C-0.4125,3.45517241 -0.525,6.77241379 1.39090909,8.77586207 L7.9875,15.6655172 C8.41363636,16.1103448 9.10568182,16.1103448 9.53181818,15.6655172 L16.1284091,8.77586207 C18.0477273,6.77241379 17.9352273,3.45517241 15.7943182,1.60689655 Z" id="Icon-Path"></path>
+                    </g>
+                    <rect id="ViewBox" x="0" y="0" width="17" height="18"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>fa-solid:comment</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Overlay_Stats_02" transform="translate(-161.000000, -40.000000)">
+            <g id="Group" transform="translate(65.000000, 35.000000)">
+                <g id="fa-solid:comment" transform="translate(96.000000, 4.000000)">
+                    <g id="Icon" fill="#FFFFFF">
+                        <g id="Icon-Group" transform="translate(9.000000, 9.000000) scale(-1, 1) translate(-9.000000, -9.000000) translate(0.000000, 1.125000)">
+                            <path d="M9,0 C4.02890625,0 0,3.27304687 0,7.3125 C0,9.05625 0.75234375,10.6523438 2.00390625,11.9074219 C1.56445312,13.6792969 0.094921875,15.2578125 0.07734375,15.2753906 C0,15.35625 -0.02109375,15.4757813 0.024609375,15.58125 C0.0703125,15.6867187 0.16875,15.75 0.28125,15.75 C2.61210937,15.75 4.359375,14.6320312 5.22421875,13.9429688 C6.37382813,14.3753906 7.65,14.625 9,14.625 C13.9710937,14.625 18,11.3519531 18,7.3125 C18,3.27304688 13.9710937,0 9,0 Z" id="Icon-Path"></path>
+                        </g>
+                    </g>
+                    <rect id="ViewBox" x="0" y="0" width="18" height="18"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

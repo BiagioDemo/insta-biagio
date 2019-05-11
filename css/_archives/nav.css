@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: #1a1a1a;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid #acacac;
+  height: 80px;
+}
+
+.navContainer {
+  width: 935px;
+  /* background-color: #1a1a1a; */
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.projectSummary {
+  margin-left: 20px;
+}
+
+.labelAndDesc {
+  /* display: flex; */
+  /* background-color: orange; */
+  /* display: inline-flex; */
+  display: inline-block;
+  /* margin-left: 20px; */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.label {
+  /* width: 98.4px; */
+  /* display: inline-flex; */
+  /* height: 10px; */
+  display: block;
+  font-family: Gotham;
+  font-size: 10px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: 0.1px;
+  color: #acacac;
+  text-transform: uppercase;
+  /* background-color: lightblue; */
+}
+
+.desc {
+  /* width: 400px; */
+  display: block;
+  height: 12px;
+  font-family: Gotham;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-transform: uppercase;
+  /* background-color: black; */
+}
+
+.sociallinks {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.sociallinks span{
+  background-color: red;
+}
+
+img.close{
+  padding-left: 32px;
+}
+
+/* MAIN SECTION */
+.main {
+  padding-top: 90px;
+  width: 935px;
+  margin: 0 auto;
+}

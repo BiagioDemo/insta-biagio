@@ -1,0 +1,22 @@
+.imageBG {
+  background-color: lightblue;
+  /* background-image: url('/Users/Biagio/Desktop/Dropbox/Biagio File Cabinet/Projects/CodeCademy/Biagio\'s Insta Portfolio/imgs/ProfilePanel.png'); */
+  background-image: url('../imgs/ProfilePanelBG.png');
+  width: 932px;
+  height: 215px;
+  margin: 50px auto;
+}
+
+.buttonsProfile {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 20px; */
+  padding-right: 10px;
+}
+
+.buttonsProfile img {
+  /* padding-left: 5px; */
+  /* padding-top: 10px; */
+  margin-right: 10px;
+  margin-top: 20px;
+}
