@@ -7,9 +7,9 @@ html, body {
 }
 
 /* ####################### */
- /* PROFILE CONTAINER */
+ /* PROFILE CONTAINER -Desktop */
  /* ####################### */
-.profileContainer {
+.profileContainer-Desktop {
   width: 932px;
   height: 225px;
   margin: 0 auto;
@@ -109,6 +109,9 @@ html, body {
 /* COLUMN 3 */
 
 .column3 {
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
   width: 296px;
   background-color: hsla(142, 40%, 80%, 0.3);
 }
@@ -125,4 +128,64 @@ html, body {
   /* padding-top: 10px; */
   margin-right: 10px;
   margin-top: 20px;
+}
+
+.statsContainer {
+  display: flex;
+  margin-top: 86px;
+}
+
+.posts {
+  margin-right: 34px;
+}
+.posts span{
+  display: block;
+}
+.number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.followers {
+  margin-right: 42px;
+}
+.followers span{
+  display: block;
+}
+
+.following span{
+  display: block;
+}
+
+/* ####################### */
+ /* PROFILE CONTAINER -Tablet */
+ /* ####################### */
+.profileContainer-Tablet {
+  width: 728px;
+  height: 285px;
+  margin: 0 auto;
+  background-color: lightblue;
+  background-color: hsl(22, 40%, 80%);
+  background-image: url('../imgs/ProfilePanel_Guide-Tablet.jpg');
+  display: flex;
+}
+
+.profileContainer-Tablet .column2 {
+  width: 315px;
+}
+
+.profileContainer-Tablet .column3 {
+  width: 180px;
+}
+
+.profileContainer-Tablet .statsContainer-Tablet {
+  display: flex;
+  margin-top: 20px;
+}
+
+.profileContainer-Tablet .buttonsProfile-Tablet {
+  display: inline-block;
+  /* justify-content: flex-end; */
+  /* margin-right: 20px; */
+  padding-right: 20px;
 }
