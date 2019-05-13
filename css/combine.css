@@ -599,12 +599,12 @@ letter-spacing: normal;
 
 }
 
-#Tron_01, #Safesext_01, #FIFA_01  {
+#Tron_01, #Safesext_01, #FIFA_01, #Chicco_01  {
   position: relative;
   /* background-color: lightblue; */
 }
 
-#Tron_01 .overlay, #Safesext_01 .overlay, #FIFA_01 .overlay  {
+#Tron_01 .overlay, #Safesext_01 .overlay, #FIFA_01 .overlay, #Chicco_01 .overlay   {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -617,7 +617,7 @@ letter-spacing: normal;
   background-color: #1a1a1a;
 }
 
-#Tron_01:hover .overlay, #Safesext_01:hover .overlay, #FIFA_01:hover .overlay {
+#Tron_01:hover .overlay, #Safesext_01:hover .overlay, #FIFA_01:hover .overlay, #Chicco_01:hover .overlay  {
   opacity: .8;
 }
 
