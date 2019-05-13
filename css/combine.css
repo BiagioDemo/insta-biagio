@@ -599,15 +599,12 @@ letter-spacing: normal;
 
 }
 
-.container_Tron_01 {
+#Tron_01, #Safesext_01, #FIFA_01  {
   position: relative;
-  /* width: 50%; */
-  background-color: lightblue;
-  width: 293px;
-  height: 293px
+  /* background-color: lightblue; */
 }
 
-.container_Tron_01 .overlay {
+#Tron_01 .overlay, #Safesext_01 .overlay, #FIFA_01 .overlay  {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -620,6 +617,28 @@ letter-spacing: normal;
   background-color: #1a1a1a;
 }
 
-.container_Tron_01:hover .overlay {
+#Tron_01:hover .overlay, #Safesext_01:hover .overlay, #FIFA_01:hover .overlay {
   opacity: .8;
 }
+
+
+/* #container_Safesext_01 {
+  position: relative;
+} */
+
+/* #container_Safesext_01 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1a1a1a;
+} */
+
+/* #container_Safesext_01:hover .overlay {
+  opacity: .8;
+} */
