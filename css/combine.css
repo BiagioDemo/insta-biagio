@@ -343,7 +343,7 @@ img.close{
   }
 
   .profileContainer-Mobile {
-    display: block;
+    display: initial;
     margin: 0 auto;
   }
 
@@ -556,6 +556,7 @@ letter-spacing: normal;
 
   .gallery {
     width: 728px;
+    margin: 0 auto;
   }
 
   .box {
