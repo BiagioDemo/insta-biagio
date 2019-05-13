@@ -18,14 +18,6 @@ html, body {
   background-image: url('../imgs/ProfilePanel_Guide.jpg');
   display: flex;
 }
-
-/* Hide stuff */
-
-.profileContainer-Desktop .statsContainer-Tablet {
-  display: none;
-}
-
-
 /* ####################### */
 /* COLUMN 1 */
 
@@ -165,31 +157,35 @@ html, body {
   display: block;
 }
 
-/* MEDIA QUERIES */
-@media only screen and (max-width: 935px) {
+/* ####################### */
+ /* PROFILE CONTAINER -Tablet */
+ /* ####################### */
+.profileContainer-Tablet {
+  width: 728px;
+  height: 285px;
+  margin: 0 auto;
+  background-color: lightblue;
+  background-color: hsl(22, 40%, 80%);
+  background-image: url('../imgs/ProfilePanel_Guide-Tablet.jpg');
+  display: flex;
+}
 
-  .profileContainer-Desktop {
-    background-image: url('../imgs/ProfilePanel_Guide-Tablet.jpg');
-    width: 728px;
-    height: 285px;
-  }
+.profileContainer-Tablet .column2 {
+  width: 315px;
+}
 
-  .profileContainer-Desktop .column2 {
-    width: 315px;
-  }
+.profileContainer-Tablet .column3 {
+  width: 180px;
+}
 
-  .profileContainer-Desktop .column3 {
-    width: 180px;
-  }
+.profileContainer-Tablet .statsContainer-Tablet {
+  display: flex;
+  margin-top: 20px;
+}
 
-  .profileContainer-Desktop .statsContainer-Tablet {
-    display: flex;
-    margin-top: 20px;
-  }
-
-  .profileContainer-Desktop .statsContainer {
-    display: none;
-  }
-
-
+.profileContainer-Tablet .buttonsProfile-Tablet {
+  display: inline-block;
+  /* justify-content: flex-end; */
+  /* margin-right: 20px; */
+  padding-right: 20px;
 }
