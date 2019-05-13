@@ -1,0 +1,128 @@
+/* ########################## */
+/* UNIVERSAL */
+/* ########################## */
+
+html, body {
+  font-size: 16px;
+}
+
+/* ####################### */
+ /* PROFILE CONTAINER */
+ /* ####################### */
+.profileContainer {
+  width: 932px;
+  height: 225px;
+  margin: 0 auto;
+  background-color: lightblue;
+  background-color: hsl(22, 40%, 80%);
+  background-image: url('../imgs/ProfilePanel_Guide.jpg');
+  display: flex;
+}
+/* ####################### */
+/* COLUMN 1 */
+
+.column1 {
+  width: 233px;
+  background-color: hsla(62, 40%, 80%, 0.3);
+}
+
+.column1 img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* ####################### */
+/* COLUMN 2 */
+
+.column2 {
+  width: 403px;
+  background-color: hsla(92, 40%, 80%, 0.3);
+}
+
+.column2 {
+  /* object-fit: contain; */
+  font-family: Montserrat, sans-serif;
+  /* font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal; */
+  color: #000000;
+  /* padding: 0; */
+}
+
+.column2 .textTitle {
+  margin-top: 20px;
+  /* color: red; */
+}
+
+#name {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+#title {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  /* color: red; */
+}
+#phone {
+  display: block;
+  margin-top: 9px;
+  font-size: 16px;
+}
+#city {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+#bio {
+  display: block;
+  margin-top: 16px;
+  font-size: 16px;
+}
+#logline {
+  display: block;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+#followedby {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 13px;
+  color: #999999;
+}
+
+#followers {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+
+
+
+/* ####################### */
+/* COLUMN 3 */
+
+.column3 {
+  width: 296px;
+  background-color: hsla(142, 40%, 80%, 0.3);
+}
+
+.buttonsProfile {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 20px; */
+  padding-right: 10px;
+}
+
+.buttonsProfile img {
+  /* padding-left: 5px; */
+  /* padding-top: 10px; */
+  margin-right: 10px;
+  margin-top: 20px;
+}
