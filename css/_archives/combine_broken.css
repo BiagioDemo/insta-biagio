@@ -1,11 +1,8 @@
-/* ########################## */
-/* UNIVERSAL */
-/* ########################## */
-html, body {
-  font-size: 16px;
-  background-color: gray;
+body {
+  margin: 0;
   background-color: #FAFAFA;
 }
+
 
 /* ######################### */
 /* NAVBAR */
@@ -108,18 +105,45 @@ img.close{
 }
 
 
-/* ####################### */
-/* MAIN CONTAINER */
-/* ####################### */
-
+/* MAIN SECTION */
 .main {
-  position: absolute;
-  margin-top: 120px;
+  padding-top: 90px;
   width: 100%;
   /* margin: 0 auto; */
-  /* background-color: #FAFAFA; */
+  background-color: #FAFAFA;
 }
 
+/* .profilePanel {
+  margin-top: 40px;
+
+} */
+
+/* ######################### */
+/* PROFILE SECTION */
+/* ######################### */
+
+.imageBG {
+  /* background-color: lightblue; */
+  /* background-image: url('/Users/Biagio/Desktop/Dropbox/Biagio File Cabinet/Projects/CodeCademy/Biagio\'s Insta Portfolio/imgs/ProfilePanel.png'); */
+  background-image: url('../imgs/ProfilePanelBG.png');
+  width: 932px;
+  height: 215px;
+  margin: 50px auto;
+}
+
+.buttonsProfile {
+  display: flex;
+  justify-content: flex-end;
+  /* margin-right: 20px; */
+  padding-right: 10px;
+}
+
+.buttonsProfile img {
+  /* padding-left: 5px; */
+  /* padding-top: 10px; */
+  margin-right: 10px;
+  margin-top: 20px;
+}
 
 /* ####################### */
 /* PROFILE CONTAINER -Desktop */
@@ -128,6 +152,7 @@ img.close{
   width: 932px;
   height: 225px;
   margin: 0 auto;
+  margin-top: 20px;
   background-color: white;
   /* background-color: hsl(22, 40%, 80%); */
   /* background-image: url('../imgs/ProfilePanel_Guide.jpg'); */
@@ -286,44 +311,6 @@ img.close{
   display: block;
 }
 
-/* MEDIA QUERIES */
-@media only screen and (max-width: 935px) {
-  .profileContainer-Desktop {
-    /* background-image: url('../imgs/ProfilePanel_Guide-Tablet.jpg'); */
-    width: 728px;
-    height: 285px;
-  }
-
-  .profileContainer-Desktop .column2 {
-    width: 315px;
-  }
-
-  .profileContainer-Desktop .column3 {
-    width: 180px;
-  }
-
-  .profileContainer-Desktop .statsContainer-Tablet {
-    display: flex;
-    margin-top: 20px;
-  }
-
-  .profileContainer-Desktop .statsContainer {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 728px) {
-
-  .profileContainer-Desktop {
-    display: none;
-  }
-
-  .profileContainer-Mobile {
-    display: block;
-    margin: 0 auto;
-  }
-
-}
 
 /* ####################### */
 /* PROFILE CONTAINER -Mobile */
@@ -333,7 +320,6 @@ img.close{
   width: 320px;
   height: 356px;
   margin: 0 auto;
-  background-color: white;
   /* background-color: lightblue; */
   /* background-color: hsl(22, 40%, 80%); */
   /* display: flex; */
@@ -460,6 +446,87 @@ img.close{
   margin-top: 0px;
 }
 
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 935px) {
+  .profileContainer-Desktop {
+    /* background-image: url('../imgs/ProfilePanel_Guide-Tablet.jpg'); */
+    /* background-color: hsla(92, 40%, 80%, 0.3); */
+    width: 728px;
+    height: 285px;
+  }
+
+  .profileContainer-Desktop .column2 {
+    width: 315px;
+  }
+
+  .profileContainer-Desktop .column3 {
+    width: 180px;
+  }
+
+  .profileContainer-Desktop .statsContainer-Tablet {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .profileContainer-Desktop .statsContainer {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 728px) {
+
+  .profileContainer-Desktop {
+    display: none;
+  }
+
+  .profileContainer-Mobile {
+    display: flex;
+    /* margin: 0 auto; */
+    background-color: white;
+  }
+
+}
+
+
+/* ######################### */
+/* CATEGORIES */
+/* ######################### */
+
+.categories {
+  /* margin-top: 40px; */
+  padding-top: 40px;
+  width: 935px;
+  /* background-color: #1a1a1a; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* color: white; */
+  height: 80px;
+  margin: 0 auto;
+}
+
+.category {
+
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+    font-family: Gotham;
+font-size: 14px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: normal;
+letter-spacing: normal;
+
+}
+
+.category p {
+    height: 14px;
+    color: #000000;
+    margin-top: 5px;
+}
+
 /* ######################### */
 /* GALLERY */
 /* ######################### */
@@ -559,3 +626,25 @@ img.close{
 #Tron_01:hover .overlay, #Safesext_01:hover .overlay, #FIFA_01:hover .overlay, #Chicco_01:hover .overlay, #Photo_Melissa:hover .overlay  {
   opacity: .8;
 }
+
+
+/* #container_Safesext_01 {
+  position: relative;
+} */
+
+/* #container_Safesext_01 .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1a1a1a;
+} */
+
+/* #container_Safesext_01:hover .overlay {
+  opacity: .8;
+} */
