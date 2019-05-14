@@ -133,14 +133,14 @@ img.btnClose{
 @media only screen and (max-width: 728px) {
 
 
-  img.btnPrev, img.btnNext{
+  img.btnPrev, img.btnNext, #brand, #agency {
     display: none;
   }
 
 
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 400px) {
 
   .main {
     padding-top: 100px;
@@ -148,23 +148,18 @@ img.btnClose{
   }
 
   header {
-    height: 100px;
+    /* height: 100px; */
   }
 
-  .navContainer {
-    /* height: 206px; */
-
+  #role {
+    display: none;
   }
 
-  .labelAndDesc {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* background-color: orange; */
-    /* display: inline-flex; */
-    /* display: block; */
-    /* margin-bottom: 30px; */
-    /* top: 40px; */
-  }
+  /* #agency {
+    display: none;
+  } */
+
+
 
   img.btnClose{
     width: 42px;
