@@ -1,13 +1,7 @@
-/* ############################### */
-/* UNIVERSAL */
-/* ############################### */
 body {
   margin: 0;
 }
 
-/* ############################### */
-/* NAV SECTION */
-/* ############################### */
 header {
   width: 100%;
   background-color: #1a1a1a;
@@ -89,24 +83,11 @@ img.btnClose{
   padding-left: 32px;
 }
 
-/* ############################### */
 /* MAIN SECTION */
-/* ############################### */
-
 .main {
-  background-color: lightblue;
   padding-top: 90px;
-
   width: 935px;
   margin: 0 auto;
-  text-align: center;
-
-  /* position: absolute; */
-  /* margin-top: 100px; */
-}
-
-.main img {
-  width: 100%;
 }
 
 /* MEDIA QUERIES */
@@ -121,26 +102,38 @@ img.btnClose{
   }
 
   .main {
+    /* width: 728px; */
     width: 96%;
   }
 
   .main img {
+    /* width: 728px; */
     width: 100%;
+    /* display: none; */
   }
 
 }
 
 @media only screen and (max-width: 728px) {
 
+  .main {
 
-  img.btnPrev, img.btnNext, #brand, #agency {
+    /* width: 300px; */
+  }
+
+  .main img {
+    /* width: 300px; */
+    /* display: none; */
+  }
+
+  img.btnPrev, img.btnNext{
     display: none;
   }
 
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 620px) {
 
   .main {
     padding-top: 100px;
@@ -148,18 +141,23 @@ img.btnClose{
   }
 
   header {
-    /* height: 100px; */
+    height: 100px;
   }
 
-  #role {
-    display: none;
+  .navContainer {
+    /* height: 206px; */
+
   }
 
-  /* #agency {
-    display: none;
-  } */
-
-
+  .labelAndDesc {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* background-color: orange; */
+    /* display: inline-flex; */
+    /* display: block; */
+    /* margin-bottom: 30px; */
+    /* top: 40px; */
+  }
 
   img.btnClose{
     width: 42px;
@@ -169,7 +167,22 @@ img.btnClose{
 }
 
 
+@media only screen and (min-width: 320px) and (max-width: 480px), (orientation: portrait)  {
 
-/* ############################### */
-/* GALLERY */
-/* ############################### */
+
+}
+
+@media only screen and (min-resolution: 150dpi) {
+    /* CSS for high resolution screens */
+  /* .logo{
+  background-image: url("../img/spaceship@2x.png");
+  } */
+}
+
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)  {
+
+}
