@@ -557,5 +557,5 @@ img.close{
 }
 
 #Tron_01:hover .overlay, #Safesext_01:hover .overlay, #FIFA_01:hover .overlay, #Chicco_01:hover .overlay, #Photo_Melissa:hover .overlay  {
-  opacity: .8;
+  opacity: 1.0;
 }
