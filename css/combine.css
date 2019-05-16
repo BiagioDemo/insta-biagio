@@ -538,12 +538,12 @@ img.close{
 
 }
 
-#Tron_01, #Safesext_01, #FIFA_01, #Chicco_01, #Photo_Melissa, #ServiceChannel_01  {
+#hoverbox  {
   position: relative;
   /* background-color: lightblue; */
 }
 
-#Tron_01 .overlay, #Safesext_01 .overlay, #FIFA_01 .overlay, #Chicco_01 .overlay, #Photo_Melissa .overlay, #ServiceChannel_01 .overlay    {
+#hoverbox .overlay    {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -556,6 +556,6 @@ img.close{
   background-color: #1a1a1a;
 }
 
-#Tron_01:hover .overlay, #Safesext_01:hover .overlay, #FIFA_01:hover .overlay, #Chicco_01:hover .overlay, #Photo_Melissa:hover .overlay, #ServiceChannel_01:hover .overlay  {
+#hoverbox:hover .overlay  {
   opacity: 0.8;
 }
