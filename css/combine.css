@@ -499,14 +499,14 @@ img.close{
   }
 
   .box {
-    background-color: hsla(120, 50%, 50%, 0.5);
+    /* background-color: hsla(120, 50%, 50%, 0.5); */
     width: 228px;
     height: 228px;
     margin-bottom: 22px;
   }
 
   .box img {
-    background-color: hsla(120, 50%, 50%, 0.5);
+    /* background-color: hsla(120, 50%, 50%, 0.5); */
     width: 228px;
     height: 228px;
     /* margin-bottom: 22px; */
@@ -522,7 +522,7 @@ img.close{
   }
 
   .box {
-    background-color: hsla(190, 50%, 50%, 0.5);
+    /* background-color: hsla(190, 50%, 50%, 0.5); */
     width: 97px;
     height: 97px;
     margin-bottom: 9px;
