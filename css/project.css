@@ -46,7 +46,7 @@ header {
   /* display: inline-flex; */
   /* height: 10px; */
   display: block;
-  font-family: Gotham;
+  font-family: 'Montserrat', 'Arial' sans-serif;
   font-size: 10px;
   font-weight: 500;
   font-style: normal;
@@ -62,7 +62,7 @@ header {
   /* width: 400px; */
   display: block;
   height: 12px;
-  font-family: Gotham;
+  font-family: 'Montserrat', 'Arial' sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-style: normal;
