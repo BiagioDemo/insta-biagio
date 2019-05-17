@@ -3,7 +3,7 @@
 /* ########################## */
 html, body {
   font-size: 16px;
-  background-color: gray;
+  /* background-color: gray; */
   background-color: #FAFAFA;
 }
 
@@ -476,7 +476,7 @@ img.close{
 }
 
 .box {
-  background-color: hsla(60, 50%, 50%, 0.5);
+  /* background-color: hsla(60, 50%, 50%, 0.5); */
   /* border: 1px solid black; */
   width: 293px;
   height: 293px;
